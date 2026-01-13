@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjwq08jkfu61p"]
+
+[ext_resource type="PackedScene" uid="uid://mieoa1yk6c5f" path="res://hero_characters/bunny_hero/player_cat.tscn" id="2_4r4eb"]
+
+[node name="IndividualTesting" type="Node2D"]
+
+[node name="PlayerCat" parent="." instance=ExtResource("2_4r4eb")]
+position = Vector2(-4, -13)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+ignore_rotation = false
